@@ -1,0 +1,8 @@
+Changes since the 2017.12.06.06 release:
+
+- SELinux policy: allow system_app to read selinuxfs for the Settings SELinux status display
+- Chromium: update to 63.0.3239.83 from 62.0.3202.84
+- update android-prepare-vendor to the latest revision
+- add back Nexus 5X and Nexus 6P support
+- replace obsolete brotli command line syntax
+- disable OTA update brotli compression since it breaks on the 5X and is only for legacy pre-Pixel devices anyway

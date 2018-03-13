@@ -1,0 +1,5 @@
+- Chromium (including the WebView): upgrade to 57.0.2987.126
+- kernel: arm64: zero the leading stack canary byte to mitigate non-terminated C string overflows
+- kernel: panic on kmem_cache_free with the wrong cache
+- kernel: panic on !PageSlab && !PageCompound in ksize
+- kernel: slub: add multi-purpose random cookies

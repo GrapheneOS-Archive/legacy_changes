@@ -1,0 +1,15 @@
+- 2017-07-01 security patch level
+- 2017-07-05 security patch level
+- replace default device policy manager maximum password length with 64 (was 16), which recently started to override the limit in Settings
+- Pixel, Pixel XL: include com.qualcomm.timeservice app to sync the hardware clock on time changes (via android-prepare-vendor)
+- only disable ART --abort-on-hard-verifier-error for the Nexus 5X and 6P, not Pixel phones where SoC support is less horrifying
+- PDF Viewer: preserve number picker state after being killed (from Tommy-Geenexus)
+- backport fix for NFC quick tile initialization from AOSP master
+- backported assorted memory corruption and other bug fixes
+- enable PERMISSIONS_REVIEW_REQUIRED to enforce user review of dangerous permissions pre-launch for apps targeting API levels less than 23 (pre-6.x)
+- Chromium (including the WebView): update to 59.0.3071.125
+- Chromium: build MonochromePublic instead of ChromeModernPublic
+- remove standalone Chromium WebView
+- switch WebView provider from com.android.webview to org.chromium.chrome
+- Chromium: build full Monochrome library for 64-bit and WebView-only library for 32-bit instead of vice versa, and set 64-bit as the preferred ABI to spawn all Chromium and WebView renderers as 64-bit as was the case before we used Monochrome (unlike stock Android)
+- Chromium: depend on WebView frameworks libraries

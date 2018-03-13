@@ -1,0 +1,23 @@
+- Chromium (including the WebView): update to 62.0.3202.73 from 62.0.3202.66
+- Settings: mark anti-theft protection as not available if file-based encryption isn't supported to avoid confusion
+- replace decentralized python2 workarounds with a global workaround in our envsetup wrapper
+- HiKey: remove broken bootloader requirement for now (the bootloader isn't passing a version on the kernel command line)
+- svox: drop fix for CTS failure and use the upstream fix from oreo-dr1-release
+- assorted tweaks to minimize conflicts when cherry-picking from oreo-r3-release to oreo-dr1-release
+- add oreo-dr1-release branch
+- dr1 only: manually port changes with conflicts from oreo-r3-release: platform_bionic, platform_bootable_recovery, platform_build, platform_build_soong, platform_external_svox, platform_external_sqlite, platform_frameworks_base, platform_packages_apps_Bluetooth, platform_packages_apps_Settings, platform_prebuilts_clang_host_linux-x86, platform_system_sepolicy
+- dr1 only: add HiKey 960 support
+- dr1 only: backport upstream fix for bad merge in services/surfaceflinger/DisplayHardware/FramebufferSurface.cpp
+- dr1 only: backport upstream fix for hwc1 support for HiKey / HiKey 960
+- dr1 only: apply SettingsProvider fix from r3 that was missing to keep the settings db version in sync
+- dr1 only: backport upstream fixes for HiKey 960 gralloc
+- dr1 only: backport upstream changes for HiKey 960 SELinux support in enforcing mode
+- SELinux policy: backport changes for timerslack support
+- dr1 only: backport removal of device-specific timerslack support
+- HiKey, HiKey 960: stop disabling malloc junk on free
+- dr1 only: temporarily use zero fill on free in debug builds to work around unidentified bugs on HiKey / HiKey 960
+- dr1 only: backport stub memtrack HAL for HiKey / HiKey 960
+- dr1 only: backport add dt.img into BOARD_PACK_RADIOIMAGES
+- dr1 only: fix release.sh for hikey960 target
+- HiKey 960: update vendor files to 20170523
+- drop device/linaro/hikey fork from non-dr1 branches as we'll only be maintaining it in dr1

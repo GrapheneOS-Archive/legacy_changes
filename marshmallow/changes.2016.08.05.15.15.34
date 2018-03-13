@@ -1,0 +1,5 @@
+- extended access to /proc/interrupts and /proc/stat to msm_irqbalance on the 5X and 6P
+- updated Chromium-based WebView from 52.0.2743.83 to 52.0.2743.91
+- updated Chromium from 52.0.2743.83 to 52.0.2743.91
+- only support SELinux enforcing mode in production (user) builds
+- worked around use-after-free caught by page cache protection in the proprietary 5X/6P camera service

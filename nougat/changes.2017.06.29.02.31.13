@@ -1,0 +1,9 @@
+- Updater (Pixel, Pixel XL): cancel pending idle reboot when disabling setting
+- Updater (Pixel, Pixel XL): disable app for non-system users to save resources (already does nothing as non-system)
+- fix upstream recovery logging bug
+- enable dex preopt for apks in vendor.img
+- Pixel, Pixel XL: remove remnants of the disabled system_other odex split
+- wire up Android Runtime debug configuration for exec-based spawning
+- fix cached pid invalidation by vfork assembly code
+- F-Droid: update to 0.104
+- F-Droid: stop suggesting / attempting incompatible updates

@@ -1,0 +1,10 @@
+- Chromium: disable showing popular sites by default
+- Chromium: disable article suggestions feature by default (not supported by us and wastes UI space)
+- Chromium: fix the default value displayed for the hyperlink auditing flag
+- Chromium: update to 65.0.3325.109
+- Updater: add support for testing streaming updates (not in a useful way yet)
+- SELinux policy: fix overly noisy app_data_file execute auditallow for third party apps (untrusted_app rather than untrusted_base_app) where it's still permitted
+- Pixel 2 XL: kernel: fix upstream bug in lge_battery module breaking fast charging with a monolithic kernel build (found by @nathanchance)
+- Launcher3: stop disabling icon normalization
+- Launcher3: stop wrapping legacy icons into adaptive icons
+- base frameworks: use round adaptive icon mask and parse round icons

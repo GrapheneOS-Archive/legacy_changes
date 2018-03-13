@@ -1,0 +1,3 @@
+- switch ART from profile-based AOT compilation to full compilation since JIT profiling is disabled (verify-profile changed to interpret-only, speed-profile changed to speed)
+- initial Nexus 6P Nougat support
+- reverted upstream commits disabling dm-verity for the Nexus 5X and Nexus 6P vendor partition in AOSP (Nexus 9 not impacted)

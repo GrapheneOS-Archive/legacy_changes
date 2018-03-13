@@ -1,0 +1,14 @@
+- remove unused Google development key from the marlin/sailfish kernel
+- Updater: initial support for A/B updates
+- Updater: remove Tv theme/layout
+- Updater: remove changelog support in anticipation of moving towards ChromeOS-style updates
+- Updater: remove unused VIBRATE permission
+- Updater: remove redundant system information
+- Updater: drop translations in anticipation of an overhaul
+- hash pthread_self when using it to select the malloc pool
+- Settings: hide MAC randomization toggle when not supported
+- use dummy values for ro.build.host ("host") and ro.build.user ("user") to match the kernel values
+- PDF Viewer: only reset page number for new documents
+- PDF Viewer: add support for text selection
+- rework hiding passwords by default (setting may need to be toggled off in Security for existing installs)
+- Chromium: update to 56.0.2924.87

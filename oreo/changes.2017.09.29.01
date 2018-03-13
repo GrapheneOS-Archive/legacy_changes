@@ -1,0 +1,14 @@
+- SELinux policy: split out domain for Updater from priv_app domain again
+- SELinux policy: remove ota update access from priv_app domain again
+- SELinux policy: split netmonitor domain from untrusted_base_app again
+- SELinux policy: split out basic routing / iface info from proc_net again
+- SELinux policy: remove non-netmonitor untrusted_app_all / isolated_app proc_net access again
+- Nexus 6P: update vendor files to OPR6.170623.019 from OPR6.170623.017 (2nd published September release)
+- add support for HiKey as a build target
+- Nexus 5X, Nexus 6P: log privileged permission whitelisting violations (already fully enforced on Pixels)
+- F-Droid privileged extension: update to 0.2.7
+- Nexus 6P: get audio_effects.conf from vendor instead again
+- Nexus 6P: remove wpa_supplicant scanning MAC randomization as it no longer works
+- Nexus 6P: remove kernel associated MAC randomization as it no longer works
+- remove infrastructure for legacy kernel associated MAC randomization
+- kernel: wcnss: fix 3 byte buffer overflow on MAC change

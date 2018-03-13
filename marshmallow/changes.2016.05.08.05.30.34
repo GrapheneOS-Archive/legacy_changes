@@ -1,0 +1,6 @@
+- add back Exchange to marshmallow-mr2-release (Nexus 5, 9), since Google published tags
+- switch to xz from gzip for factory images (not a big improvement yet due to inner zip compression)
+- expose malloc quarantine size as a setting in Security -> Advanced
+- wire up the malloc quarantine size option to the performance vs. security slider
+- avoid abort when the malloc quarantine is set to zero size
+- fix use-after-free/double-free mitigations with the maximum malloc quarantine size

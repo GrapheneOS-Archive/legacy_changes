@@ -1,0 +1,14 @@
+- SELinux policy: split out basic routing / iface info from proc_net
+- SELinux policy: remove proc_net access for untrusted_app/untrusted_base_app
+- bundle org.secuso.privacyfriendlynetmonitor app
+- SELinux policy: add a domain for org.secuso.privacyfriendlynetmonitor based on untrusted_base_app with proc_net read access
+- Chromium: mark non-secure origins as non-secure
+- marlin / sailfish vendor file improvements
+- PDF Viewer: improve asynchronous request handling
+- PDF Viewer: add support for cancelling rendering
+- PDF Viewer: disable saving form data in the WebView
+- PDF Viewer: disable WebView cache
+- PDF Viewer: disable WebView URL loading
+- PDF Viewer: disable WebView cookies (already disallowed, but might as well disable it)
+- PDF Viewer: load a fresh viewer for each PDF (improve robustness/security by isolating the pdf.js environment for each document)
+- PDF Viewer: avoid content URL access within the WebView

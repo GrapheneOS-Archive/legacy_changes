@@ -1,0 +1,4 @@
+- Net Monitor: update to v1.2 from v1.1.4 (fixes the major issues of missing connections when it was running in the background and wrongly attributing connections to apps with shared uids like assigning all system uid connections to atfwd)
+- enable LOCAL_DEX_PREOPT for apks in vendor.img again
+- SELinux policy: allow vendor apps to execute vendor_framework_file for dexpreopt to avoid needing /data/dalvik-cache
+- backport wpa_supplicant security fixes for CVE-2017-13077, CVE-2017-13078, CVE-2017-13079, CVE-2017-13080, CVE-2017-13081, CVE-2017-13082, CVE-2017-13086, CVE-2017-13087 and CVE-2017-13088 (CVE-2017-13084 is not applicable) to Oreo's current post-2.6 revision

@@ -1,0 +1,11 @@
+- 2017-11-01 security patch level
+- 2017-11-05 security patch level
+- other November 2017 security update changes for Nexus/Pixel devices from AOSP
+- Chromium (including the WebView): update to 62.0.3202.84 from 62.0.3202.73
+- F-Droid: update base code to 1.0.1
+- PDF Viewer: update pdf.js to 1.9.426 including fixing a conflict with our change to allow sane style-src Content Security Policy
+- SELinux policy: disallow execmem for ephemeral_app
+- SELinux policy: auditallow execmem for untrusted app domains again
+- SELinux policy: auditallow app_data_file execute for untrusted app domains again
+- SELinux policy: restore missing dalvikcache_data_file execute rules for non-base-system apps
+- sdcard service: enable the object-size sanitizer again (our integer sanitizer change is now upstream)

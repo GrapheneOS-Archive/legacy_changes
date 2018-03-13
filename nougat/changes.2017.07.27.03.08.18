@@ -1,0 +1,11 @@
+- fix bug causing permission review to no longer grant permissions by default at install time
+- set tether_dun_required to 0 by default (using net.tethering.noprovisioning=true isn't enough for every standard APN configuration)
+- require unlocking to use nfc quick tile
+- require unlocking to use bluetooth quick tile
+- require unlocking to use airplane mode quick tile
+- require unlocking to use wifi quick tile
+- require unlocking to use rotation lock quick tile
+- require unlocking to use data saver quick tile
+- require unlocking to use hotspot quick tile
+- require unlocking to use cellular quick tile
+- require unlocking to use battery quick tile

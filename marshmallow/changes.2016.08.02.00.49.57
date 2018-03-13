@@ -1,0 +1,6 @@
+- restrict access to /proc timing information to prevent sensitive data leaks via timing side channels
+- backported fix for get_nproc() to avoid depending on /proc/stat
+- enabled malloc canaries by default and moved them from 70% to 50% on the performance vs. security slider
+- backported a tiny patch series for Parcel to reduce noise from SELinux denials
+- August security patch level
+- perf events restrictions landed upstream and were backported, so they're now part of the AOSP base

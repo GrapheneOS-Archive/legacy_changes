@@ -1,0 +1,6 @@
+- script: include directory for python2 workaround
+- limit platform signature permissions to system again
+- dr1 only: rebuild clang with our patch adding support for the local-init sanitizer and enable it again in build/make and build/soong
+- update android-prepare-vendor to latest upstream revision
+- PDF Viewer: minor UX improvements (from @Tommy-Geenexus)
+- Updater: add warning about illegitimate resellers for legacy devices (Nexus 5X, Nexus 6P)

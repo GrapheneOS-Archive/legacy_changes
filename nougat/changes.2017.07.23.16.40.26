@@ -1,0 +1,2 @@
+- extend support for toggling the Network permission group to apps targeting API level < 23
+- mark all JNINativeMethod tables in modules that are used as read-only

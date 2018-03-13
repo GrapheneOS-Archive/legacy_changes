@@ -1,0 +1,20 @@
+Changes since 2018.03.13.20:
+
+- include TalkBack and Switch Access accessibility services since they're now open source
+- switch dummy values for ro.build.user/ro.build.host from user/host to the OS name
+- Pixel 2, Pixel 2 XL: kernel: cherry-pick stable kernel commits from 4.4.121 to 4.4.122
+- Pixel 2, Pixel 2 XL: kernel: cherry-pick stable kernel commits from 4.4.122 to 4.4.123
+- Pixel 2, Pixel 2 XL: kernel: cherry-pick stable kernel commits from 4.4.123 to 4.4.124
+- Pixel, Pixel XL: kernel: cherry-pick stable kernel commits from 3.18.99 to 3.18.100
+- Pixel, Pixel XL: kernel: cherry-pick stable kernel commits from 3.18.100 to 3.18.101
+- Pixel, Pixel XL: kernel: cherry-pick stable kernel commits from 3.18.101 to 3.18.102
+- PDF Viewer: make prerendering work again after refactoring
+- PDF Viewer: fix prerendering previous page
+- PDF Viewer: switch from getTextContent to streamTextContent
+- PDF Viewer: move maybeRenderNextPage check earlier
+- PDF Viewer: use a single task variable
+- PDF Viewer: overhaul document properties and parsing (from @Tommy-Geenexus)
+- PDF Viewer: switch to Java 8
+- PDF Viewer: improve error logging
+- PDF Viewer: update version to 3
+- F-Droid: update to 1.1

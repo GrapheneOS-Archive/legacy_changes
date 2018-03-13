@@ -1,0 +1,3 @@
+- made stack canary global read-only after initialization
+- began purging alloca and variable length arrays across Android
+- added Qualcomm utility functions used but not provided by AOSP's build system (fixes a few bugs, and should improve 5X/6P power usage)

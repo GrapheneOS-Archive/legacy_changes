@@ -1,0 +1,4 @@
+Changes since 2018.05.08.01:
+
+- Chromium: update from 66.0.3359.126 to 66.0.3359.158
+- add back Nexus 6P support now that the kernel tag is available

@@ -1,0 +1,10 @@
+- Chromium (including the WebView): update to 55.0.2883.91
+- fix detection of system apps updates by F-Droid
+- update Silence to 0.14.6
+- fix accessibility integration for the Extra security patch level field
+- fix some build non-determinism so target_files_diff.py detects no changes in a rebuild (i.e. smaller incrementals)
+- add back QuickSearchBox app to fulfill CTS requirements
+- disable QuickSearchBox launcher icon
+- disable QuickSearchBox launcher widget
+- disable bounds sounds for bluetooth.default until it's fixed
+- incremental updates are now considered stable and are being deployed over-the-air

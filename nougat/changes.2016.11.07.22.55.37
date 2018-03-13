@@ -1,0 +1,6 @@
+- disable bounds sanitizer for libstagefright_amrwbenc
+- added back __dynamic_object_size executable fast path
+- updated Chromium to 54.0.2840.85
+- removed ipset support from the Nexus 9, as IP blacklisting is unlikely to be reimplemented any time soon
+- temporarily disabled exec-based spawning for com.android.systemui
+- November security update (2016-11-06 patch level, unlike stock's 2016-11-05 patch level)

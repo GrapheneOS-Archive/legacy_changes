@@ -1,0 +1,10 @@
+Changes since 2017.12.17.21:
+
+- 2018-01-01 security patch level
+- 2018-01-05 security patch level
+- PackageInstaller: add back fix for upstream bug preventing toggling off current permissions in review
+- disable exec spawning for apps that are being debugged until the debug features are compatible (upstream bug)
+- improve robustness of the code implementing toggles for background audio recording and clipboard access
+- Updater: bump API level to 27
+- PDF Viewer: bump API level to 27
+- F-Droid: update to 1.0.2

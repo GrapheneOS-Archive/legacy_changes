@@ -1,0 +1,15 @@
+- December security update, including migration to nougat-mr1-release (initial Android 7.1.1 branch) from nougat-mr0.5-release
+- disable integer sanitizer for sdcard service due to problems introduced with 7.1.1
+- fix Linux kernel CVE-2016-8655 (local privilege escalation)
+- Chromium: disabled hyperlink auditing by default
+- Chromium: added DuckDuckGo as the default search engine, including search suggestions
+- Chromium: updated to 55.0.2883.77
+- Chromium: mark the internal channel as stable rather than unknown due to not being com.android.chrome
+- fixed F-Droid version name
+- added signature verification to the over-the-air update client as an extra layer before recovery verifies them
+- remove redundant hash verification from the over-the-air update client now that it checks signatures
+- added compatibility with incremental (delta) updates from the update server
+- updated Silence to 0.14.5
+- remove priv_app app_data_file execution
+- bundle offline-calendar so that calendar functionality works out-of-the-box instead of adding an account failing without explanation
+- replace unmaintained AOSP Calendar app with Etar

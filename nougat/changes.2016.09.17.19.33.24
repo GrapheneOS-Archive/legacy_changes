@@ -1,0 +1,2 @@
+- enabled shift and signed-integer-overflow sanitizers for SQLite
+- disabled bounds sanitizer for a few more modules to work around bugs

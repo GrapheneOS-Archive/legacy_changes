@@ -1,0 +1,2 @@
+- preload android.graphics.Typeface class to work around an upstream race condition (avoids Conversations crash)
+- updated Chromium WebView to 54.0.2840.85

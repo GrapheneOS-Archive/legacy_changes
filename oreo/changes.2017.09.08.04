@@ -1,0 +1,9 @@
+- Chromium: update to 61.0.3163.81 from 60.0.3112.116
+- Chromium: backport support for the Android Oreo WebView
+- Chromium: bump MonochromePublic targetSdkVersion to 26 to match the internal Monochrome metadata (needed to provide the WebView on Oreo among other things)
+- remove Google WebView since our hardened Chromium builds provide the WebView again
+- remove Google WebView from the WebView provider whitelist
+- PDF Viewer: adopt targetSandboxVersion 2 to use the much stronger instant app style sandbox for the app itself (rendering already happened in the stronger WebView sandbox)
+- Updater (Pixel, Pixel XL): migrate to Build.getSerial() API for enforcing update zip serialno constraints in anticipation of it becoming mandatory
+- grant Updater app on Pixel and Pixel XL Phone permissions for Build.getSerial()
+- leave deprecated Build.SERIAL field set to UNKNOWN (only support fetching the serial number via the new Build.getSerial() requiring the READ_PHONE_STATE permission)

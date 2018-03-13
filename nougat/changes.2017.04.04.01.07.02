@@ -1,0 +1,11 @@
+- migrate to nougat-mr2-release (Android 7.1.2) and drop Nexus 9 support from this branch as it will remain on nougat-mr1.1-release
+- 2017-04-01 security patch level
+- 2017-04-05 security patch level
+- Chromium (including the WebView): update to 57.0.2987.132
+- kernel: fix CVE-2017-7184
+- kernel: slub: add back random cookies
+- kernel: use slab_equal_or_root checks without memcg kmem
+- kernel: always perform cache_from_obj sanity checks
+- kernel: slub: add check for write-after-free
+- Updater (Pixel, Pixel XL): delete corrupt update packages
+- Updater (Pixel, Pixel XL): resume installation of completed downloads

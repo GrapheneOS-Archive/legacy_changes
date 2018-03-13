@@ -1,0 +1,10 @@
+Changes since 2018.03.01.14:
+
+- 2018-03-01 security patch level including recommended updates
+- 2018-03-05 security patch level including recommended updates
+- 2018-03 Pixel/Nexus functional updates
+- Pixel 2, Pixel 2 XL: increase rollback index to 3 for 2018-03-05 patch level
+- Settings: update_engine downgrade attack we reported is now fixed upstream, remove from extra security patches field
+- Pixel 2, Pixel 2 XL: kernel: cherry-pick stable kernel commits from 4.4.119 to 4.4.120
+- Pixel, Pixel XL: kernel: cherry-pick stable kernel commits from 3.18.97 to 3.18.98
+- Pixel 2, Pixel 2 XL: kernel: enable KPTI (already enabled for the Pixel and Pixel XL in AOSP, Google disabled it for the Pixel 2 and Pixel 2 XL since it's not crucial on the Snapdragon 835 but it's still useful hardening and fixes a known way to leak system registers)

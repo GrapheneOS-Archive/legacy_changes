@@ -1,0 +1,7 @@
+- marlin/sailfish custom in-tree kernel builds
+- Chromium: disable form autofill by default
+- disable slub merging by default for non-PaX kernels too
+- stop disabling slub debugging support for the angler, bullhead and marlin/sailfish kernels
+- ignore slub_debug on the kernel line for the Nexus 5X since LG's bootloader passes slub_debug=FZP unconditionally
+- add back support for scrambling PIN layout
+- add PDF Viewer app based on pdf.js and content providers (no permissions)

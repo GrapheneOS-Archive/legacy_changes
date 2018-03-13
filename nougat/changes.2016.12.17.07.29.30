@@ -1,0 +1,7 @@
+- move from NMF26O (android-7.1.1_r4) to NMF26Q (android-7.1.1_r6)
+- enable bounds sanitizer for bluetooth.default.so again
+- disable bounds sanitizer for libbt-stack for now
+- hide keyboard gesture settings due to missing Google Play dependency
+- hide keyboard voice input key due to missing Google Play dependency
+- switch from default 4 byte file name padding for file-based encryption to 32 bytes (from @thegrugq)
+- add missing WallpaperPicker app

@@ -1,0 +1,20 @@
+Changes since 2018.04.19.04:
+
+- 2018-05-01 security patch level including recommended updates
+- 2018-05-05 security patch level including recommended updates
+- 2018-05 Pixel/Nexus functional updates
+- Pixel 2, Pixel 2 XL: increase rollback index for 2018-05-05 patch level
+- Chromium: prevent popular sites field trial from overriding changed default
+- Chromium: prevent non-secure origin field trial from overriding changed default
+- Chromium: update from 66.0.3359.106 to 66.0.3359.126
+- Pixel, Pixel XL: kernel: cherry-pick stable kernel commits from 3.18.105 to 3.18.106
+- Pixel, Pixel XL: kernel: cherry-pick stable kernel commits from 3.18.106 to 3.18.107
+- Pixel, Pixel XL: kernel: cherry-pick stable kernel commits from 3.18.107 to 3.18.108
+- Pixel 2, Pixel 2 XL: kernel: cherry-pick stable kernel commits from 4.4.128 to 4.4.129
+- Pixel 2, Pixel 2 XL: kernel: cherry-pick stable kernel commits from 4.4.129 to 4.4.130
+- Pixel 2, Pixel 2 XL: kernel: cherry-pick stable kernel commits from 4.4.130 to 4.4.131
+- Silence: update from 0.15.12 to 0.15.13
+- Net Monitor: update from 1.2 to 2.0
+- F-Droid: update from 1.1 to 1.2 (held back earlier due to bugs)
+- F-Droid: update from 1.2 to 1.2.1 (held back earlier due to bugs)
+- F-Droid: update from 1.2.1 to 1.2.2

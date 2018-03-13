@@ -1,0 +1,8 @@
+- enabled WITH_DEXPREOPT_PIC to reduce the need for /data/dalvik-cache for the base system
+- minor kernel configuration adjustments (enable DEBUG_LIST, enable DEBUG_CREDENTIALS, disable INET_DIAG)
+- disabled unused kernel AIO support
+- updated Chromium-based WebView to 52.0.2743.98
+- updated Chromium to 52.0.2743.98
+- applied fix for CVE-2016-3866 to the Nexus 5X and 6P kernels (Nexus 9 not impacted, Nexus 5 does not appear to be)
+- extended fine-grained SELinux restrictions to /proc/vmstat and /proc/zoneinfo (only a few core services)
+- removed obsolete recovery menu entry for applying updates from SD card

@@ -1,0 +1,5 @@
+- Chromium: update to 60.0.3112.116 from 60.0.3112.107
+- Chromium WebView (temporarily included until Oreo WebView support is pushed): update to 60.0.3112.116 from 60.0.3112.107
+- add two forms of ASLR for secondary stacks again
+- make the minimum secondary stack gap size one page again
+- kernel: getrandom: make blocking until init configurable (disabled temporarily to mimic the AOSP urandom fallback)

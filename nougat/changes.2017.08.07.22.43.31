@@ -1,0 +1,6 @@
+- 2017-08-01 security patch level
+- 2017-08-05 security patch level
+- enable Verizon visual voicemail support
+- add CNEService for the Nexus 5X and Nexus 6P to bring them in line with the Pixel and Pixel XL
+- Pixel, Pixel XL: add CarrierConfig vendor.xml other than the Verizon entries from stock, resolving remaining non-Sprint / non-Verizon carrier compatibility issues (VoLTE / VoWiFi now work where supported, other than on Verizon where it requires proprietary apps / remote admin backdoor)
+- fix upstream bug in the permissions review activity (toggles only worked for new permissions, not previously granted / rejected ones)

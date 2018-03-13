@@ -1,0 +1,6 @@
+- tweaked perf_harden property handling to avoid potential races
+- exposed perf_harden to the shell user, made it non-persistent and removed the Settings app toggle
+- updated Chromium apks (arm, arm64) to 51.0.2704.81
+- updated WebView apks (arm, arm64) to 51.0.2704.81
+- dropped PaX support for the deprecated (but still supported) Nexus 5 target
+- June security update

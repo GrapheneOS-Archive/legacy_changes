@@ -1,0 +1,19 @@
+Changes since the 2017.11.20.01 release:
+
+- 2017-12-01 security patch level
+- 2017-12-05 security patch level
+- update android-prepare-vendor to the latest revision
+- migrate from Android 8.0 to Android 8.1 (MR1)
+- Settings: stop marking KRACK fixes as extra security patches since Google included the fixes in AOSP
+- kernel (Pixel, Pixel XL): add fixes for GCC builds until time is available to migrate to using Clang like Google
+- Launcher3: revert broken upstream commit
+- overhaul exec spawning to work with the new spawning infrastructure
+- overhaul SELinux policy changes to cope with Treble ABI compatibility layer
+- temporarily switch to official WebView build (63.0.3239.83) due to temporary lack of published Chromium sources with API 27 WebView support
+- set up the slightly hardened Clang / LLVM toolchain for mr1
+
+Known upstream issues for Android 8.1:
+
+- Settings app wrongly displays the SELinux status as Permissive because SELinux prevents Settings from reading the SELinux enforce mode
+- Pixel verified boot fingerprint display has been fixed but the fingerprint is not yet meaningful (verified boot does continue to work and automatically enforces that the key doesn't change, it's only a fingerprint display issue)
+- android-prepare-vendor may not work properly without manual intervention

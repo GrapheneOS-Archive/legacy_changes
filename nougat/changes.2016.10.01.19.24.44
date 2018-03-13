@@ -1,0 +1,7 @@
+- add back madvise to the media seccomp policies (called by libbinder)
+- disabled bounds sanitizer for libsvoxpico (text to speech)
+- disabled bounds sanitizer for libstagefright_amrnbenc
+- reimplemented __dynamic_object_size/__malloc_object_size API
+- added back dynamic overflow checks for the read and write system calls (not yet the rest)
+- backported arc4random atfork fixes
+- backported patch to only set the stack guard value once

@@ -1,0 +1,7 @@
+- enabled bounds sanitizer by default for C++ again
+- enabled object-size sanitizer for SQLite
+- updated Chromium to 53.0.2785.124
+- updated Chromium WebView to 53.0.2785.124
+- fixed some undefined array accesses in bionic libc
+- added more exceptions from the bounds sanitizer
+- removed malloc configuration property handling for now due to property initialization changes in Nougat

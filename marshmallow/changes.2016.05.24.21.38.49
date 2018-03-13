@@ -1,0 +1,3 @@
+- use -fstack-protector for the Nexus 9 kernel (required backports)
+- updated Silence to 0.14.3
+- roll back DeskClock translation changes from AOSP on the 5X/6P to work around various issues

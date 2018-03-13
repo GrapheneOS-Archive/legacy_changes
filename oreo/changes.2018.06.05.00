@@ -1,0 +1,15 @@
+Changes since 2018.05.15.17:
+
+- 2018-06-01 security patch level including recommended updates
+- 2018-06-05 security patch level including recommended updates
+- 2018-06 Pixel/Nexus functional updates
+- Pixel 2, Pixel 2 XL: increase rollback index for 2018-06-05 patch level
+- Pixel, Pixel XL: kernel: cherry-pick stable kernel commits from 3.18.108 to 3.18.109
+- Pixel, Pixel XL: kernel: cherry-pick stable kernel commits from 3.18.109 to 3.18.110
+- Pixel, Pixel XL: kernel: cherry-pick stable kernel commits from 3.18.110 to 3.18.111
+- Pixel, Pixel XL: kernel: cherry-pick stable kernel commits from 3.18.111 to 3.18.112
+- Pixel 2, Pixel 2 XL: kernel: cherry-pick stable kernel commits from 4.4.131 to 4.4.132
+- Pixel 2, Pixel 2 XL: kernel: cherry-pick stable kernel commits from 4.4.132 to 4.4.133
+- Pixel 2, Pixel 2 XL: kernel: cherry-pick stable kernel commits from 4.4.133 to 4.4.134
+- Pixel 2, Pixel 2 XL: kernel: cherry-pick stable kernel commits from 4.4.134 to 4.4.135
+- Chromium: update from 66.0.3359.158 to 67.0.3396.68

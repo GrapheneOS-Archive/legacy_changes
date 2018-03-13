@@ -1,0 +1,7 @@
+Changes since 2018.01.23.20:
+
+- Chromium: update to 64.0.3282.116
+- remove separate WebView again
+- add per-app setting to disallow background location access
+- add per-app setting to disallow background sensors access
+- Pixel 2, Pixel 2 XL: increase rollback index

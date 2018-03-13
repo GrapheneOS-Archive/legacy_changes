@@ -1,0 +1,66 @@
+- move to Android Oreo OPR6.170623.013 the base OS (tip of oreo-r6-release branch)
+- port of many of our features to Android Oreo (8.0), requiring many changes to the implementations (details not listed here)
+- android-prepare-vendor port to Android Oreo / Treble and new vendor files
+- add missing ro.hardware.egl property
+- stop clobbering stock audio_effects.conf
+- temporarily bundle and whitelist the AOSP WebView until Android Oreo support is pushed to Chromium
+- add ambient capability support to exec-based spawning
+- use exec-based spawning for com.android.bluetooth now that there's ambient capability support
+- fix upstream issue with replacing the fingerprint of the boot image
+- handle -ftrapv like the signed integer sanitizer options (signed-integer-overflow, integer, undefined) by not passing -fwrapv
+- build new Clang toolchain
+- switch back to using speed mode for dexpreopt globally rather than only for certain core code
+- Launcher3: disable icon normalization for now as most icons aren't prepared for it
+- disable aapt2 for LatinIME (the keyboard) to work around a known aapt2 bug
+- increase padding from 16 to 32 bytes for the new AES_256_HEH filename encryption mode to match our increase from 4 to 32 bytes for the old AES_256_CTS mode (content is still encrypted with AES_256_XTS)
+- Contacts: remove no-op help and feedback option
+- Contacts: make add account message neutral about service choice
+- Settings: add back extra security patch level field
+- Settings: add back bootloader version field
+- Settings: add back verified boot status field
+- Settings: add back anti-theft protection status field
+- Updater (Pixel, Pixel XL): add support for battery not low job scheduling
+- remove shared relro support again
+- Launcher3: work around keyboard not being hidden
+- ExactCalculator: revert to the old Apache2 icon from before Google went out of the way to regress it in AOSP
+- Contacts: remove logo meant for the Google app based on this
+- recovery: rebranding
+- script: remove minutes/seconds from generated BUILD_NUMBER
+- temporarily bundle and whitelist the latest Google WebView until support for providing the WebView on Android Oreo is in Chromium
+- bionic: replace brk/sbrk/__bionic_brk with stubs again
+- Updater (Pixel, Pixel XL): move to new APIs provided at API level 26
+- Updater (Pixel, Pixel XL): add a notification channel
+- Updater (Pixel, Pixel XL): increase targetSdkVersion to 26
+- stop disabling unprivileged ptrace by default for compatibility with the new crash dump system
+- kernel (Pixel, Pixel XL): stop enabling ptrace_scope by default for compatibility with the new crash dump system
+- CarrierConfig (Pixel, Pixel XL): update vendor.xml configuration overlay for Android Oreo
+- roll back non-firewall network hardening too for the time being in case it's the source of carrier compatibility issues
+- add toggle for disabling native code debugging support (toggles kernel.yama.ptrace_scope between 0 and 2, with more restrictions coming later)
+- replace SELinux policy in vendor.img with our policy
+- sepolicy: remove permissions tied to the Dalvik / ART JIT compiler again
+- sepolicy: remove app_data_file execute for priv_app again
+- sepolicy: add back fine-grained policy for /proc/vmstat
+- sepolicy: disallow text relocations for API 26+
+- sqlite: enable shift, signed-integer-overflow and object-size sanitizers in trapping mode again
+- make some function pointer tables read-only again
+- PDF Viewer: update targetSdkVersion to 26
+- PDF Viewer: update pdf.js to 1.8.188
+- fix undefined out-of-bounds accesses in sched.h again
+- switch pthread_atfork handler to mmap again
+- add memory protection for pthread_atfork handlers again
+- add memory protection for at_quick_exit handlers again
+- clean up string formatting in libc again
+- increase pthread stack size to 8MiB on 64-bit again
+- add XOR mangling mitigation for thread local destructors again
+- avoid some variable length arrays again
+- make __stack_chk_guard read-only at runtime again
+- replace pthread_attr junk filling pattern again
+- add explicit_memset and fix explicit_bzero with it again
+- add a proper issetugid implementation again
+- add back hardened malloc with assorted changes and integration
+- temporarily disable junk on free for init
+- whitelist getrandom system call for media seccomp sandboxes since hardened malloc triggers regular calls to it
+- Updater (Pixel, Pixel XL): get payload offset from new streaming metadata
+- zero sensitive data (512 byte hardware generated random seed) with explicit_memset in init again
+- tighten up mount permissions again
+- use blocking getrandom to prevent urandom fallback to prevent arc4random abort before urandom is available and to guarantee high quality early boot entropy

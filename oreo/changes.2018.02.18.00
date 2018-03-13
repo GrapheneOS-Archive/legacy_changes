@@ -1,0 +1,17 @@
+Changes since 2018.02.05.23:
+
+- Pixel, Pixel XL, Pixel 2, Pixel 2 XL: kernel: fix uninitialized scatterlist in qce detected by DEBUG_SG
+- Pixel, Pixel XL, Pixel 2, Pixel 2 XL: kernel: enable DEBUG_SG
+- Pixel, Pixel XL: kernel: reduce one DEBUG_SG check to a warning for now
+- Pixel, Pixel XL: kernel: cherry-pick stable kernel commits from 3.18.93 to 3.18.94
+- Pixel, Pixel XL: kernel: cherry-pick stable kernel commits from 3.18.94 to 3.18.95
+- Pixel 2, Pixel 2 XL: kernel: cherry-pick stable kernel commits from 4.4.115 to 4.4.116
+- Pixel 2, Pixel 2 XL: kernel: Revert "ANDROID: Revert "arm64: move ELF_ET_DYN_BASE to 4GB / 4MB"" (spotted by @nathanchance)
+- lower pid_max to 1/4 of the default to guarantee a 4x higher max_map_count is theoretically safe despite the kernel being broken (not enough memory on real devices to matter but still)
+- Pixel 2, Pixel 2 XL: android-prepare-vendor: fix vendor.img AB_OTA_PARTITIONS inclusion
+- Settings: sort applications in sensors and clipboard background permission toggle lists (@rascarlo noticed the sorting code in the location/audio lists was missing for these)
+- Updater: add generated icons
+- Updater: bump version
+- PDF Viewer: replace launcher icon
+- PDF Viewer: bump version
+- Camera app: properly handle INFO_SUPPORTED_HARDWARE_LEVEL_3 (enables support for Zero-Shutter-Lag on the Nexus 5X, Nexus 6P, Pixel, Pixel XL, Pixel 2 and Pixel 2 XL)

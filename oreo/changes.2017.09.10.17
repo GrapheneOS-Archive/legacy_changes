@@ -1,0 +1,20 @@
+- Settings: do not allow disabling Chromium (it's very common for people to disable it without realizing Chromium provides the WebView to other apps)
+- Settings: do not allow disabling the main keyboard (it's not obvious that disabling it after installing another keyboard is a very bad idea. Other keyboards rarely support Direct Boot and won't work for entering the password, forcing recovery by plugging in a physical keyboard)
+- Updater (Pixel, Pixel XL): replace the notification channel to move away from deprecated APIs
+- Updater (Pixel, Pixel XL): add permissions whitelist file
+- disable OpenGL preloading again
+- disable preload ICU cache pinning again
+- disable JCA provider preloading again
+- disable resource preloading again
+- disable class preloading again
+- add missing /system/etc/permissions and /system/etc/sysconfig configuration files from stock (via android-prepare-vendor)
+- omit stock Android libtinyxml2 since it's part of AOSP (via android-prepare-vendor)
+- remove CarrierSetup app as it appears to be unnecessary and tied to Verizon bloat / Google Play
+- fix com.android.launcher3 permissions whitelist
+- fix com.android.dialer permission whitelist
+- fix android.ext.services permissions whitelist
+- add com.android.apps.tag permission whitelist
+- F-Droid privileged extension: update to 0.2.6
+- F-Droid privileged extension: whitelist privileged permissions
+- Pixel, Pixel XL: enforce privileged permission whitelisting
+- backport upstream fix for the wrap debug feature

@@ -1,0 +1,4 @@
+- Pixel, Pixel XL: add missing system/lib/soundfx/libfmas.so library (via android-prepare-vendor)
+- mark INTERNET as a dangerous permission, but granted by default for apps with runtime permission support for compatibility
+- add a NETWORK permission group for the INTERNET permission
+- add NETWORK permission group to the list with user-facing toggles

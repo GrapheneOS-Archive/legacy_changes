@@ -1,0 +1,9 @@
+- Updater (Pixel, Pixel XL): extract care_map.txt for update_verifier
+- Updater (Pixel, Pixel XL): sanity check device name to mitigate key reuse
+- Updater (Pixel, Pixel XL): hold wake lock for update_engine
+- privacy-friendly-netmonitor: update to 1.1.4
+- SELinux policy: split out updater domain for the Updater app from priv_app
+- SELinux policy: remove priv_app OTA update access
+- on 64-bit, zero the leading stack canary byte: trade 8 bits of entropy (64 -> 56) for mitigating non-terminated C string overflows
+- on 64-bit, zero the leading heap canary byte: trade 8 bits of entropy (64 -> 56) for mitigating non-terminated C string overflows
+- use fully random stack and heap canaries in eng/userdebug builds

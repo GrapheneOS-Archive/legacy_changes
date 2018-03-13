@@ -1,0 +1,5 @@
+- updated Chromium to 53.0.2785.97
+- updated WebView to 53.0.2785.97
+- proprietary blob generation improvements
+- fix for CVE-2016-5343 for the 5X and 6P (does not impact Nexus 9)
+- added back -fwrapv for code where signed integer overflow checking is not enabled

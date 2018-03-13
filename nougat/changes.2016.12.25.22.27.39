@@ -1,0 +1,17 @@
+- SELinux policy: split system untrusted_app into untrusted_base_app
+- SELinux policy: untrusted_base_app: forbid text relocations
+- SELinux policy: untrusted_base_app: forbid dynamic code generation
+- SELinux policy: untrusted_base_app: remove asec access
+- SELinux policy: untrusted_base_app: remove dalvik cache execute
+- SELinux policy: untrusted_base_app: remove app_data_file execute
+- SELinux policy: split system isolated_app into isolated_base_app
+- SELinux policy: isolated_base_app: remove dalvik cache execute
+- Etar: update from 1.0.7 to 1.0.8
+- disable dynamic object size checks for getcwd with NULL (non-standard GNU extension)
+- QuickSearchBox: disable widget
+- Chromium: enable -fwrapv for clang
+- add missing whitelisting for LocalTransport backup service (upstream AOSP bug)
+- Nexus 6P: switch to /vendor/etc/audio_effects.conf from android-prepare-vendor
+- move compression from factory images generation to the release signing script
+- fix build with /usr/bin/python as python3
+- add our F-Droid repository to the defaults (it can be manually added for existing installs)

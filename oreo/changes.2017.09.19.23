@@ -1,0 +1,9 @@
+- keyboard: disable personalized suggestions by default
+- Updater (Pixel, Pixel XL): use the standard update settings intent
+- Nexus 5X, Nexus 6P: port to oreo
+- LegacyUpdater (Nexus 5X, Nexus 6P): use the standard update settings intent
+- Settings: use standard update settings mechanism
+- Nexus 5X, Nexus 6P: vendor: remove system partition bytecode packages until they work properly (loses transparent WiFi / LTE switching on both and Qualcomm time service on 5X)
+- wpa_supplicant: enable WiFi scanning MAC randomization for non-Qualcomm WiFi devices again (Qualcomm WiFi devices already have a better implementation in firmware)
+- DeskClock: drop targetSdkVersion to 25 since Google released it as targeting 26 without handling the breaking changes
+- Nexus 5X: fix preferred network settings

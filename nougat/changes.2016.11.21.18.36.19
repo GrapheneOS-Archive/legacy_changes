@@ -1,0 +1,9 @@
+- rm a message from Settings referencing Google Play
+- stop incorrectly marking android.hardware.location.network as a supported feature (could be supported down the road)
+- removed mremap from Chromium system call whitelist
+- switched Chromium/WebView from -fstack-protector to -fstack-protector-strong
+- updated Chromium/WebView to 55.0.2883.53 (Beta channel)
+- marked F-Droid updates to system apps signed with different keys as incompatible
+- switched from ChromePublic.apk to ChromeModernPublic.apk (backported from master)
+- set a proper Chromium apk version name/code (rather than the default of "Developer Build" and "1")
+- implemented an initial way to test update infrastructure

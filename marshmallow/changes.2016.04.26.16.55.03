@@ -1,0 +1,1 @@
+- avoid benign unsigned overflow in sdcard service caught by -fsanitize=integer
