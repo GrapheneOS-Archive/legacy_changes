@@ -1,7 +1,0 @@
-- replaced several uses of strlen on untrusted binary data without a guaranteed NUL terminator
-- updated Chromium WebView to 54.0.2840.68
-- updated Chromium to 54.0.2840.68
-- set Chromium release channel to "stable" to disable StrictMode and fix the version information
-- added a field to Settings -> About device listing vulnerability fixes not included in the latest Android patch level (does not include those without ids, and it's incomplete)
-- added back preloadResources to work around upstream bugs causing CtsWidgetTestCases to fail (100ms app start latency cost)
-- fixed a use-after-free in MediaHTTP

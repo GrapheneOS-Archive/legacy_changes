@@ -1,7 +1,0 @@
-- Settings: add WPA2 issues fixed in the last release (2017.10.16.22) to the "Extra security patches" field
-- HiKey: add boot animation
-- SELinux policy: backport init configfs fix for HiKey
-- Settings: handle devices without factory reset protection
-- HiKey: disable malloc junk on free until use-after-free bugs are addressed
-- SELinux policy: fully remove base system dalvikcache_data_file execute again
-- Chromium: update base version to 62.0.3202.66 from 61.0.3163.98 and port the hardening changes

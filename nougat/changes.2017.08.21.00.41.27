@@ -1,3 +1,0 @@
-- Chromium (including the WebView): update to 60.0.3112.107 from 60.0.3112.97
-- kernel (Nexus 5X, Nexus 6P, Pixel, Pixel XL): use kernel command-line as early boot entropy since it has the serial number and bootloader stage timings
-- Updater (Pixel, Pixel XL): open updater settings when the notification is touched

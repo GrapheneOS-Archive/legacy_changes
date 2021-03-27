@@ -1,8 +1,0 @@
-- kernel (Pixel, Pixel XL): implement an equivalent to _FORTIFY_SOURCE=1 for buffer reads/writes via string.h functions
-- kernel (Pixel, Pixel XL): add kmalloc alloc_size attributes
-- kernel (Pixel, Pixel XL): avoid buffer overflow in Qualcomm display code
-- kernel (Pixel, Pixel XL): apply __ro_after_init changes from marlin O Preview 1 kernel
-- kernel (Pixel, Pixel XL): apply HARDENED_USERCOPY changes from marlin O Preview 1 kernel
-- kernel (Pixel, Pixel XL): slub: check cookies in __check_heap_object to detect use-after-free and heap corruption via user copy functions
-- PDF Viewer: update pdf.js to v1.8.170
-- PDF Viewer: create a fresh canvas for each page

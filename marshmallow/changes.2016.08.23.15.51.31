@@ -1,9 +1,0 @@
-- backport replacement of AT_RANDOM with arc4random for the ART base address
-- backported dlopen support for PIC oat files
-- backported dexpreopt support for prebuilt Java libraries
-- enabled WITH_DEXPREOPT_PIC for boot.oat
-- removed execmem auditallow for mediaserver (can be revisited with the mediaserver split in N)
-- removed dalvikcache_data_file execute access for everything other than shell, untrusted_app and isolated_app
-- enabled the stackable Yama Linux Security Module for ptrace_scope
-- added a system property for controlling ptrace_scope, usable by the adb shell user
-- set ptrace_scope=2 by default, disabling unprivileged access to ptrace

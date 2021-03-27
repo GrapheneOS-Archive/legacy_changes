@@ -1,6 +1,0 @@
-- force enable multiprocess sandboxed WebView (hidden as a developer option in stock)
-- removed obsolete developer options multiprocess WebView toggle
-- further reduce execmem based on not using the ART JIT and having out-of-process WebView
-- added back setting to control USB peripheral denial
-- pulled in minor upstream bug fix for the Updater app
-- disabled bounds sanitizer for libjni_latinime until the issues there are fixed

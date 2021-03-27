@@ -1,9 +1,0 @@
-- make sure https is used for all references to izatcloud
-- stop marking the LTE only mode as experimental (caveats still apply: VoLTE needed for voice calls to work, modem may have bugs allowing downgrade)
-- Chromium (including the WebView): update to 60.0.3112.78
-- Chromium (impacts browser only): enable dubious Do Not Track feature by default
-- Chromium (impacts browser only): stop enabling search engine geolocation by default
-- disable camera gestures while locked if camera is disabled on the lockscreen, to avoid needing to toggle off the gesture feature
-- ContactsCommon: remove irrelevant privacy policy / terms of use
-- disable firewall hardening until contributors with access to other carriers are willing to test it
-- disable bounds sanitizer for libc_dns until an overflow there is fixed

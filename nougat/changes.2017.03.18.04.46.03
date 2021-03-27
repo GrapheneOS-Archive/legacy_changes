@@ -1,8 +1,0 @@
-- kernel: gather extra early boot entropy like PaX
-- Updater (Pixel, Pixel XL): add the option to reboot once idle after updating
-- Updater (Pixel, Pixel XL): add support for Direct Boot to enable updates before unlocking
-- enable notification light by default (Nexus 5X, Nexus 6P, Pixel, Pixel XL)
-- Silence: update to 0.15.5
-- F-Droid: update to 0.102.2
-- F-Droid privileged extension: update to 0.2.2
-- Chromium: update to 57.0.2987.108

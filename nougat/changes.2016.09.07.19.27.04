@@ -1,4 +1,0 @@
-- September security update
-- replace our WebView builds with Google builds for now (Nougat support code is not public yet)
-- disable mremap code path in the OpenBSD malloc port to avoid violating standard seccomp whitelists
-- fix remaining Updater app Nougat compatibility issue

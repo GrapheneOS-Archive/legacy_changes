@@ -1,4 +1,0 @@
-- set default SQLite journal mode to TRUNCATE, not PERSIST
-- hostname is now randomized by default on boot
-- applied fix for CVE-2016-0774 to the kernel
-- updated F-Droid to 0.99.1

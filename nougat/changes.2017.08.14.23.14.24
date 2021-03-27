@@ -1,5 +1,0 @@
-- Chromium (including the WebView): update to 60.0.3112.97 from 60.0.3112.78
-- Chromium (no impact on WebView): hide passwords.google.com link when not supported
-- Camera2: remove no-op help and feedback button
-- mark added frameworks APIs as hidden to avoid API stability warnings
-- assorted cleanup / reorganization in preparation for porting to Android 8.0

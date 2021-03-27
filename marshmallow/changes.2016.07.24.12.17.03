@@ -1,3 +1,0 @@
-- updated WebView to 52.0.2743.83
-- updated Chromium to 52.0.2743.83 and re-enabled Chromium linker to bypass bugs
-- added back shared library preloading to work around Chromium linker bug

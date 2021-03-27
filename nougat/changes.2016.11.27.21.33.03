@@ -1,7 +1,0 @@
-- Chromium: disabled contextual search, network prediction, navigation error correction and metrics by default
-- Chromium: disabled first run welcome (metrics) and data reduction proxy opt-in pages
-- Chromium: disabled other forms of data reduction proxy promotions
-- Chromium: update to 55.0.2883.63 (Beta channel)
-- changed update server domain (old server will continue to work)
-- permit shell user to enable the test update channel
-- send device type in the delta update request

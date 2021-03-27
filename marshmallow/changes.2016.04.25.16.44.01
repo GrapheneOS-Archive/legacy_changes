@@ -1,6 +1,0 @@
-- always randomize pre-associated MAC address via wpa_supplicant (requires WiFi settings reset to kick in)
-- hide the no-op legacy grant toggle for non-owner users
-- improved heap canary generation (each unique, not unique per-page)
-- enable bounds, integer and object-size sanitizers for sdcard service
-- migrated the Nexus 5 and 9 to marshmallow-mr2-release branch (first tag is 6.0.1_r30)
-- updated SMSSecure to 0.14.1 (note that it has been renamed to Silence upstream)

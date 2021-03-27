@@ -1,4 +1,0 @@
-- compression disabled in the inner factory images zip, resulting in a significantly smaller tar.xz
-- removed forced disabling of malloc junk filling for mediaserver on the Nexus 5X for now
-- full MAC randomization for the Nexus 6P (no builds yet)
-- remove legacy permission toggle feature for now, as it needs to be reimplemented

@@ -1,7 +1,0 @@
-- enabled up-front compilation again rather than relying on background compilation
-- extended new dynamic overflow checks to cover the same system calls as before
-- added missing initializer in surfaceflinger
-- added missing overflow checks in binder (caught by -fsanitize=integer regardless)
-- migrated from nougat-release to nougat-bugfix-release branch as the base
-- October security update
-- added more bounds sanitizer exceptions

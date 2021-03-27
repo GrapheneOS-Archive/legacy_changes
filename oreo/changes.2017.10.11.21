@@ -1,5 +1,0 @@
-- Updater (Pixel, Pixel XL): stop setting the notification to CATEGORY_SYSTEM
-- Silence: update from 0.15.7 to 0.15.8
-- SELinux policy: auditallow legacy execmod
-- Nexus 5X, Nexus 6P: only add Updater to PRODUCT_PACKAGES in official builds
-- work around latent F-Droid bug with privileged extension app installation (bug is still present but no longer worse than before)

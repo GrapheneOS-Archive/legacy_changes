@@ -1,6 +1,0 @@
-- rework how the INTERNET permission works (Network permission group will need to be toggled off again as desired)
-- make SET_TIME_ZONE require signature|privileged like SET_TIME (it's much less sensitive but shouldn't be a 'normal' permission)
-- stop granting location to Chromium by default for fresh installs (it works fine without it and requests it after the user grants access to a site)
-- add toggle to Settings -> Security for disabling camera usage from the lockscreen
-- Updater (Pixel, Pixel XL): set minimum latency for idle reboot job to 5 minutes
-- Settings: remove irrelevant wallpaper copyright information

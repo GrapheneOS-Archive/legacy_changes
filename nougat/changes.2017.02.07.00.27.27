@@ -1,3 +1,0 @@
-- February security update
-- auditallow untrusted_app/untrusted_base_app /proc/net usage to assess the scope of the problem
-- ported marlin device repository changes from nougat-mr1.3-release

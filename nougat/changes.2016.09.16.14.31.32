@@ -1,4 +1,0 @@
-- add Qualcomm build utilities again, to restore missing hardware features
-- begin bringing back selective use of the object-size sanitizer
-- add back -fsanitize=bounds -fsanitize-trap=bounds by default for C code (not yet C++ again)
-- fix AndroidID-29431260 vulnerability (moderate severity)

@@ -1,9 +1,0 @@
-- Updater: Update settings -> System update settings
-- SELinux policy: remove execmem for privileged app domains again
-- SELinux policy: add seinfo tag for generic base system apps again
-- SELinux policy: split out untrusted base app domains again
-- SELinux policy: remove base system execmod again
-- SELinux policy: remove base system untrusted app execmem again
-- SELinux policy: remove base system app_data_file execute again
-- kernel (Pixel, Pixel XL): add specialized MAC randomization for Pixel phones
-- Settings (Pixel, Pixel XL): add new toggle for associated MAC randomization to Wi-Fi preferences

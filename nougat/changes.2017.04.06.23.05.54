@@ -1,6 +1,0 @@
-- libc: malloc: use zero-based junk filling in production
-- F-Droid privileged extension: update to 0.2.3
-- F-Droid: update to 0.102.3
-- enable F-Droid privileged extension
-- Silence: update to 0.15.6
-- fix upstream buffer overflow in the Bluetooth stack caught by our dynamic system call overflow checks (fix from @ScottyBauer1)

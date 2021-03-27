@@ -1,8 +1,0 @@
-- backported commit from AOSP master removing access to /dev/snd/{seq,timer}
-- bumped Updater app to API level 24 due to a fix from CyanogenMod
-- disabled background clipboard access (can be reactivated in Settings -> Security)
-- enabled doze and app standby
-- fixed early boot and recovery failures due to a subtle compatibility issue triggering out-of-memory
-- updated OpenBSD malloc to new version with multi-pool (not yet enabling it) and lighter junk-on-free for large allocations
-- made dynamic object size checks work for static executables again
-- add back __dynamic_object_size stack fast path

@@ -1,3 +1,0 @@
-- disable unused AssetAtlas service
-- worked around upstream Pico TTS bugs by building it as 32-bit
-- updated Chromium and Chromium WebView to 55.0.2883.45 (switched from Stable channel -> Beta channel for now so that WebView can be built from source again)

@@ -1,4 +1,0 @@
-- migrated from nougat-bugfix-release to nougat-mr0.5-release (no-op rename by Google)
-- extended dynamic object size checks to work with _FORTIFY_SOURCE functions
-- fixed dynamic object size queries to be fully async signal safe
-- extended dynamic object size checks to work inside libc itself

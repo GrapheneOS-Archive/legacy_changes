@@ -1,6 +1,0 @@
-Changes since 2017.12.12.16:
-
-- Silence: update to 0.15.10
-- Chromium: update to 63.0.3239.111
-- Google WebView (included until Android 8.1 WebView stable release is open source): update to 63.0.3239.111
-- Pixel, Pixel XL: remove AOSP Updater package inclusion

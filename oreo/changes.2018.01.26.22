@@ -1,3 +1,0 @@
-Changes since 2018.01.25.17:
-
-- move isAppForeground check outside of the AppOpsService lock scope to avoid occasional deadlocks between ActivityService and AppOpsService

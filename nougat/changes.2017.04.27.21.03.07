@@ -1,7 +1,0 @@
-- kernel (Pixel, Pixel XL): apply large series of arm64 improvements from the marlin O Preview 1 kernel including PAN emulation
-- kernel (Pixel, Pixel XL): add vmalloc alloc_size attributes
-- kernel (Pixel, Pixel XL): add fortified strlen/strnlen
-- only include the Updater app if OFFICIAL_BUILD is true (Pixel, Pixel XL)
-- initialize threaded malloc
-- refine malloc pthread_atfork integration
-- Chromium (including the WebView): update to 58.0.3029.83

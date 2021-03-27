@@ -1,8 +1,0 @@
-- kernel (Pixel, Pixel XL): add more __ro_after_init (partially from PaX)
-- kernel (Pixel, Pixel XL): randomize lower bits of the argument block like PaX
-- kernel (Pixel, Pixel XL): properly account for stack randomization in mmap base
-- kernel (Pixel, Pixel XL): determine stack entropy based on mmap entropy (11 -> 16 bits for 32-bit processes, 18 -> 24 bits for 64-bit processes) - note: arm64 4-level page tables could improve this significantly on 64-bit, but they aren't usable yet
-- kernel (Pixel, Pixel XL): move ET_DYN base lower in the address space
-- kernel (Pixel, Pixel XL): fix qcacld-2.0 buffer read overflows in userdebug builds caught by CONFIG_FORTIFY_SOURCE
-- update F-Droid privileged extension to 0.2.5
-- revert workaround for upstream race between camera services and flashlight quick tile (no longer needed)

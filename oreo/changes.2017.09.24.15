@@ -1,9 +1,0 @@
-- Contacts: remove no-op help & feedback menu entries
-- keyboard: rebranding
-- fix logging for denials of background clipboard access
-- Updater (Pixel, Pixel XL): always wait for reboot after completing an update
-- Updater (Pixel, Pixel XL): switch to new system update icon for notification
-- Updater (Nexus 5X, Nexus 6P): add makeshift legacy update system support (This update client was designed to run on top of the update_engine A/B update system and file-based encryption. It can't offer the same user experience and robustness elsewhere. However, due to some recent changes it's possible to hack in support for the legacy recovery-based update system. It will handle edge cases like a normal reboot after an update is downloaded strangely but the basics can work.)
-- Updater (Nexus 5X, Nexus 6P): use legacy update server
-- Nexus 5X, Nexus 6P: replace LegacyUpdater with Updater
-- Chromium: update to 61.0.3163.98 from 61.0.3163.81

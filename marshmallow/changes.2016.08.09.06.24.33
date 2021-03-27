@@ -1,4 +1,0 @@
-- removed some infrastructure for the unused shared relro feature (incompatible with exec spawning)
-- removed support for partial junk-on-free, making full junk-on-free into the default
-- implemented and enabled Clang sanitizer for zeroing uninitialized local variables
-- applied fix for CVE-2016-5340 to the Nexus 5X and 6P kernels (Nexus 9 is not impacted)

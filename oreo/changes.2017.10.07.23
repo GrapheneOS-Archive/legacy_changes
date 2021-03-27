@@ -1,6 +1,0 @@
-- SELinux policy: split out base system isolated_app again
-- SELinux policy: begin purge of base system dalvikcache_data_file execute again
-- SELinux policy: remove webview_zygote apk_data_file access
-- Nexus 5X, Nexus 6P: add back missing vendor apps via improved android-prepare-vendor Oreo compatibility
-- refactor checks for added runtime permissions (previously only used to make INTERNET into a runtime permission)
-- add new permission for non-body-related sensors

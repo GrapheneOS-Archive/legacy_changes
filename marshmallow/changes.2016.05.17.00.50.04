@@ -1,1 +1,0 @@
-- disabled scanning MAC randomization on the Nexus 5X to avoid authentication failure (requires network settings reset)

@@ -1,5 +1,0 @@
-- updated F-Droid to v0.100.1 from v0.100
-- enable netfilter rpfilter support on the Nexus 6P
-- port of grsecurity's DEVICE_SIDECHANNEL feature
-- set malloc to abort on out-of-memory by default (see technical overview for rationale)
-- fixed libdmengine.so symlinks (does not appear to fix Sprint support)

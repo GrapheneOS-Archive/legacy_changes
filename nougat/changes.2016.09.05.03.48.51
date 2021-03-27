@@ -1,3 +1,0 @@
-- initial Nexus 5X port to Nougat, with some proprietary carrier nonsense missing
-- narrower scope for execmod/execmem in the SELinux policy
-- allow dalvikcache_data_file execute for isolated_app again (removed by mistake)

@@ -1,4 +1,0 @@
-- initial release based on Android Nougat, which has substantial security improvements in the base OS
-- ported many past features ported to the new base (not yet close to all features)
-- fixed various new AOSP issues
-- fixed / worked around various new compatibility issues with our features

@@ -1,3 +1,0 @@
-- ignore persist.security.perf_harden values less than 1 to avoid adding system->root attack surface
-- set persist.security.perf_harden=2 by default, rather than writing to /proc/sys directly
-- enable -fstack-protector-strong for the Nexus 5X and 6P kernels

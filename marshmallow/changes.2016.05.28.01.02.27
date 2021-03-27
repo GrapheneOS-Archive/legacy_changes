@@ -1,5 +1,0 @@
-- removed leftover legacy permission model toggle on the 5X/6P
-- fixed upstream bug in AppCompat support to avoid a NullPointerException in DeskClock
-- fixed support for non-platform signature permissions in third party apps
-- minimal port of grsecurity's PERF_HARDEN feature (kernel.perf_event_paranoid=3)
-- added a toggle for profiling support in developer options
